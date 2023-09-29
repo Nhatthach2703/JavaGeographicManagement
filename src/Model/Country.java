@@ -26,8 +26,7 @@ public class Country extends EastAsiaCountries implements Comparable<Country>{
 
     @Override
     public void display() {
-        System.out.printf("%-10s%-25s%-20.1f%-25s\n", this.countryCode,
-                this.countryName, this.countryArea, this.countryTerrain);
+        System.out.printf("%-10s%-25s%-20.1f%-25s\n", this.countryCode, this.countryName, this.countryArea, this.countryTerrain);
     }
 
     public String getCountryTerrain() {

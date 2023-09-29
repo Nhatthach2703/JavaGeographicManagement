@@ -43,7 +43,6 @@ public class Library {
     }
     
     public double checkInputDouble(String promt) {
-        //loop until user input correct
         while (true) {
             System.out.print(promt + ": ");
             try {
@@ -56,7 +55,6 @@ public class Library {
         }
     }
 
-    //check country exist by code
     public boolean checkCountryExist(List<Country> lc, String countryCode) {
         for (Country country : lc) {
             if (country.getCountryCode().equalsIgnoreCase(countryCode)) {
