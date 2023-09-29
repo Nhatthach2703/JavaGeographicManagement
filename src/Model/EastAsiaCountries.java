@@ -47,6 +47,5 @@ public class EastAsiaCountries {
     }
 
     public void display() {
-
     }
 }
